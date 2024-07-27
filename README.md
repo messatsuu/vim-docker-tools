@@ -1,3 +1,6 @@
+# NOTE
+This is just a fork with some minor tweaks and mappings changed to my liking.
+
 # vim-docker-tools
 ![demo](https://i.imgur.com/CM7RI6Z.gif) 
 * Open DockerTools Panel with `:DockerToolsOpen`, close it with `:DockerToolsClose`
@@ -13,20 +16,30 @@
       git clone https://github.com/kkvh/vim-docker-tools.git ~/.vim/bundle/vim-docker-tools
 
 * Vim-plug
-
-      Plug 'kkvh/vim-docker-tools'
+```vim
+Plug 'kkvh/vim-docker-tools'
+```
 
 * NeoBundle
+```vim
+NeoBundle 'kkvh/vim-docker-tools'
+```
 
-      NeoBundle 'kkvh/vim-docker-tools'
+* Lazy
+```lua
+{
+    'kkvh/vim-docker-tools',
+},
+```
 
 * Vundle
-
-      Plugin 'kkvh/vim-docker-tools'
-
+```vim
+Plugin 'kkvh/vim-docker-tools'
+```
 * Manual
-
-      # Copy all of the files into your `~/.vim` directory
+```sh
+git clone git@github.com:messatsuu/vim-docker-tools.git ~/.vim
+```
 
 # Roadmap
 * [x] Refactor docker runner structure
