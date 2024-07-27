@@ -62,7 +62,7 @@ let s:mapping = {
 	\'rm':'x',
 	\'pause':'p',
 	\'unpause':'u',
-	\'exec':'>',
+	\'exec':'x',
 	\'logs':'<'
 \}
 

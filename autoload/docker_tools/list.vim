@@ -9,8 +9,8 @@ let s:mapping = {
 	\'toggle-help':'?',
 	\'filter':'<leader>f',
 	\'option':'o',
-	\'next-panel':'<leader>>',
-	\'previous-panel':'<leader><'
+	\'next-panel':'m',
+	\'previous-panel':'v'
 \}
 
 function! docker_tools#list#help(mapping) abort
